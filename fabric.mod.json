@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hugosmpmoney",
+  "version": "${version}",
+  "name": "HugoSMP Money",
+  "description": "Zeigt deinen HugoSMP-Kontostand und ein Geld-Ziel als HUD an.",
+  "authors": [],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.hugosmpmoney.HugoSmpMoneyClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
